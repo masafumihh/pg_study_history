@@ -1,0 +1,36 @@
+#main .wrapper ul#countries li {
+	width: 44.68%;
+	margin-right: 2.66%;
+	margin-left: 2.66%;
+}
+
+#main .wrapper ul#countries li:last-child {
+	width: 94.68%;
+	margin-right: 2.66%;
+	margin-left: 2.66%;
+}
+
+header nav li {
+	width: 25%;
+	border-bottom: 1px solid #aaa;
+}
+
+@media screen and (max-width: 600px) {
+	#main .wrapper ul#countries li, #main #subcontents li, #main .wrapper section#primary {
+		width: 94.68%;
+	}
+
+	#main #subcontents li:nth-child(n+2) {
+		display: none;
+	}
+	header nav li {
+	width: 33.3%;
+	border-bottom: 1px solid #aaa;
+}
+
+@media screen and (max-width: 500px) {
+	header nav li {
+	width: 50%;
+	border-bottom: 1px solid #aaa;
+	font-size: 93%;
+}
