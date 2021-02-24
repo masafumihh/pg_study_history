@@ -26,6 +26,7 @@ header nav li {
 	header nav li {
 	width: 33.3%;
 	border-bottom: 1px solid #aaa;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -33,4 +34,5 @@ header nav li {
 	width: 50%;
 	border-bottom: 1px solid #aaa;
 	font-size: 93%;
+	}
 }
